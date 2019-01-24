@@ -1,0 +1,165 @@
+@charset "utf-8";
+title{
+
+  color: #95ff2b
+
+}
+
+
+
+ body{
+  color: black;/*文字色指定*/
+  font-size: 18px;/*文字の大きさ指定*/
+  font-family: serif;/*自体の設定*/
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+header h1{
+  font-size: 50px;
+}
+
+nav ul {
+  display: table;
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+  text-align: center;
+}
+nav ul li{
+  display: table-cell;
+  width: auto;
+  min-width: 50px;
+  position: relative;
+}
+nav ul li:not(:last-child):after{
+  position: absolute;
+  content: "/";
+  top: 20%;
+  right: 0;
+}
+
+nav ul li a{
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+nav ul li a:hover{
+
+  opacity: 0.3;
+  color: blue;
+
+}
+
+
+.head{
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+
+em{
+  font-size: 20px;
+  font-weight: bolder;
+  color: #99ccff;
+}
+
+.privaterestaurant{
+
+ color: black;
+ font-size: 25px;
+
+}
+
+.how2{
+
+  height: 100%;
+ background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+
+ .how{
+   font-weight: bolder;
+   background-image: url(image/edgar-castrejon-459822-unsplash.jpg);
+   background-size: cover;
+   background-position: center;
+   border-bottom: 1px datted black;
+  color: black;
+    margin-bottom: 0%;
+    border: 1px solid black;
+    border-radius: 70px;
+    padding-bottom: 20px;
+
+ }
+
+.des{
+
+  font-size: 22;
+  line-height: 1.9;
+
+}
+
+
+.deli{
+  color: white;
+  text-align: center;
+  font-size: 22;
+  line-height: 1.9;
+  background-color: #330000;
+  border: 1px solid white;
+  margin-top: 0%;
+  margin-bottom:5%;
+  border-radius: 70px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 20px;
+  }
+
+.twitterlogo:hover{
+
+  opacity: 0.6;
+}
+
+.instagram:hover{
+
+  opacity: 0.5;
+
+}
+
+.button01{
+  padding: 10px;
+}
+.button01:hover{
+    opacity:0.6;
+}
+footer{
+
+  border: 1px solid black;
+  width: auto;
+  margin:0 auto 60px;
+  border-left: none;
+  border-right: none;
+}
+input{
+  padding-top: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: groove;
+}
+textarea{
+  padding: 25px;
+  border: groove;
+}
+
+.top{
+
+  font-size: 33;
+  margin-bottom: 10px;
+}
